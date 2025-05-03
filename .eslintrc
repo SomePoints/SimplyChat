@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "extends": [
+    "@vue/airbnb",
+    "plugin:vue/vue3-essential",
+    "@vue/eslint-config-typescript"
+  ],
+  "rules": {
+    "import/extensions": "off",
+    "import/no-unresolved": "off"
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".ts", ".js", ".jsx", ".vue"]
+      }
+    }
+  }
+}
