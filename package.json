@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "element-plus": "^2.6.0",
@@ -33,6 +34,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-vue": "^9.17.0",
+    "gh-pages": "^6.3.0",
     "npm-run-all2": "^6.1.1",
     "postcss": "^8.4.35",
     "postcss-nesting": "^12.1.0",
