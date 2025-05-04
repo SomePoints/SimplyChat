@@ -9,6 +9,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "target": "es5",
+    "lib": [
+      "decorators",
+      "dom",
+      "es5",
+      "dom.iterable",
+      "scripthost"
+    ]
   }
 }

@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-import useChat from '@/api/mock';
+import useChat from '@/api/openrouter';
 
 export interface MessageRow {
   id: string
