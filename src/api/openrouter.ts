@@ -18,7 +18,6 @@ export default function () {
     messages: OpenRouterMessage[],
     options: SendMessageOptions = {},
   ) {
-    console.log(OPENROUTER_API_KEY);
     const {
       model = 'tngtech/deepseek-r1t-chimera:free',
       apiKey = OPENROUTER_API_KEY,

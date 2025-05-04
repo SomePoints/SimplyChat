@@ -34,7 +34,6 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-vue": "^9.17.0",
-    "gh-pages": "^6.3.0",
     "npm-run-all2": "^6.1.1",
     "postcss": "^8.4.35",
     "postcss-nesting": "^12.1.0",
