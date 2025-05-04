@@ -39,6 +39,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+        env:
+          VITE_OPENROUTER_API_KEY: https://api.vpnrun.cn
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
